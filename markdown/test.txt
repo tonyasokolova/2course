@@ -1,0 +1,38 @@
+#### Markdown
+
+Markdown is a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+
+## History
+
+John Gruber, with substantial contributions from Aaron Swartz, created the Markdown language in 2004 with the goal of enabling people "to write using an easy-to-read, easy-to-write plain text format, and optionally convert it to structurally valid XHTML (or HTML)”.
+
+Taking cues from existing conventions for marking up plain text in email, such as setext, the language was designed to be readable as-is, without looking like it's been marked up with tags or formatting instructions, unlike text formatted with a markup language, such as Rich Text Format (RTF) or HTML, which have obvious tags and formatting instructions.
+
+Gruber wrote a Perl script, Markdown.pl, which converts marked-up text input to valid, well-formed XHTML or HTML and replaces left-pointing angle brackets ('<') and ampersands with their corresponding character entity references. It can be used as a standalone script, as a plugin for Blosxom or Movable Type, or as a text filter for BBEdit.
+
+## Implementations
+
+Implementations of Markdown are available for many different frameworks, platforms and languages.
+
+* The sourcecode documentation generator Doxygen supports Markdown with extra features.
+* RStudio, an IDE for R provides a C++ wrapper function for the markdown implementation sundown.
+* IntelliJ IDEA, an IDE for Java, provides a Markdown plugin
+* MultiMarkdown, a format and program with more syntax features and export options than traditional Markdown
+* PageDown, a parser for StackExchange's Markdown syntax
+* GitHub Flavored Markdown (GFM) adds syntax highlighting, task lists, and tables. It has several implementations:
+  * Grip - Github Readme Instant Preview" (Joe Esposito) - Python
+  * "Vim-Flavored-Markdown" (Jeff Tratner) - Vim scripting
+  * "GitHub-Flavored Markdown Comments" (Evan Solomon) - PHP WordPress plugin
+  * "Markdown on Save" (Mark Jaquith) - PHP WordPress plugin
+  * "Node-GFM" (Gabriel Llamas) - JavaScript
+  * "Parsedown" (Emanuil Rusev) - PHP
+* Pandoc adds tables, line blocks, definition lists, superscripts and subscripts, can generate table of content.
+* Discount - a C implementation.
+* Md2doc - a XSLT 2.0 implementation.
+
+## References
+
+1. Some
+2. Kind
+3. Of
+4. Books
