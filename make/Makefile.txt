@@ -1,0 +1,24 @@
+#include make2.txt
+
+CC=gcc
+CFLAGS= -Wall
+LIBPATH= -L.
+LIBRARIAN=ar
+
+BINARIES=test_lists 
+
+all: $(BINARIES)
+
+test_lists: libmy_list.a test.o list.h
+	$(CC) -o test_lists $(LIBPATH) test.o -lmy_list
+
+
+%.a: list.o list.h
+	$(LIBRARIAN) rs libmy_list.a  list.o
+
+
+list.o: list.c
+	$(CC) $(CFLAGS) -c $^
+
+test.o:test.c
+	$(CC) $(CFLAGS) -c $^
